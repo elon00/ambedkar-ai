@@ -1,10 +1,34 @@
 {
-  "name": "weave",
-  "ticker": "WEAV",
-  "category": "Restaking_LSD",
+  "name": "ambedkar-ai-mcp",
+  "version": "1.0.0",
+  "description": "Ambedkar AI Model Context Protocol Server for Constitutional Morality, Anti-Caste Safeguards & Affirmative Legal Empowerment",
   "tools": [
-    { "name": "query_conway_state", "description": "Fetches current cellular automaton lattice" },
-    { "name": "execute_x402_settlement", "description": "Executes HTTP 402 micro-settlement" },
-    { "name": "fetch_quicknode_rpc", "description": "Queries QuickNode multi-chain endpoint" }
+    {
+      "name": "audit_constitutional_morality",
+      "description": "Evaluate laws, policies, and algorithmic systems against the Indian Constitution, Liberty, Equality, and Fraternity",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "policy_text": { "type": "string" },
+          "vulnerable_demographic": { "type": "string" },
+          "caste_discrimination_vector": { "type": "string" }
+        },
+        "required": ["policy_text", "vulnerable_demographic"]
+      }
+    },
+    {
+      "name": "disburse_legal_aid_grant",
+      "description": "Trigger an immediate micro-escrow disbursement for pro-bono Dalit/Bahujan/minority legal defense or student scholarships",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "initiative": { "type": "string" },
+          "recipient": { "type": "string" },
+          "amount_wei": { "type": "string" },
+          "case_hash": { "type": "string" }
+        },
+        "required": ["initiative", "recipient", "amount_wei"]
+      }
+    }
   ]
 }
